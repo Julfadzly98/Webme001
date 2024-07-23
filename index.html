@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>WebMe Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+       <nav>
+           <a href="index.html"><img src="images/ldtec-logo.png"></a>
+           <div class="nav-links" id="navLinks">
+              <li class="fa fa-times" onclick="hideMenu()"></li>
+              <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONTACT</a></li>
+                  <li><a href="dashboard.html">DASHBOARD</a></li>
+                  
+              </ul> 
+           </div>
+           <li class="fa fa-bars" onclick="showMenu()"></li>
+       </nav>
+        <div class="text-box">
+            <h1>WebMe Portal Dashboard</h1>
+            <p>Kolombong Gen Hub | KG Hub<br><br><b>Hardware and Software</b></p>
+            <a href="#" class="hero-btn">Visit Us to know More</a>
+        </div>
+
+    </section>
+
+<!-----Course------>
+
+    <section class="course">
+        <h1>Type of Project</h1>
+        <p>Everything Start from here</p>
+
+        <div class="row">
+            <div class="">
+            </div>   
+            <div class="course-col">
+                 <h3>LDTec Dashboard</h3>
+                 <p>About an Internet Of Things Project for Landslide Detection</p>
+            </div>
+            <div class="course-col">
+                <h3>BTCB (Bob The Cleaning Bot)</h3>
+                <p>Drag -and -drop page builder to customize your website. No coding skills required</p>
+           </div>
+           <div class="">
+        </div>   
+        </div>
+
+
+    </section>
+
+<!----Campus-->
+
+    <section class="campus">
+        <h1>Programming Tools</h1>
+        <p>Our tools to for everything</p>
+
+         <div class="row">
+             <div class="campus-col">
+                 <img src="images/london-2.jpg">
+                 <div class="layer">
+                     <h3>HTML</h3>
+                 </div>
+             </div>
+             <div class="campus-col">
+                <img src="images/newyork-2.png">
+                <div class="layer">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washigton-2.jpg">
+                <div class="layer">
+                    <h3>PYTHON</h3>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    
+    
+ <!-----EXTRA------>
+<br>
+<br>
+<br>
+    <section>
+       <div class="button">
+        <a href="#" class="hero-btn red-btn">Click to know more</a>
+       </div>
+    </section>
+    <br>
+    <br>
+
+
+<!-----Footer------>
+
+<section class="footer">
+    <h5>Webme Portal</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Jul Maker</p>
+</section>
+
+<!-----Js Script for toggle menu------>
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+</body>
+</html>
